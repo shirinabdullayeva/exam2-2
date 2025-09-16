@@ -1,0 +1,27 @@
+.video{
+    background-image: url(../img/Mask\ Group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.map{
+    background-image: url(../img/Rectangle\ 574.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    width:  1250px;
+        height: 703px;
+        angle: 0 deg;
+        opacity: 1;
+        top: 1119px;
+        left: 335px;
+        border-radius: 14px;
+}
+
+@media (max-width:800px) {
+    .map{
+        width: 100%;
+        height: auto;
+    }
+}
